@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Buscador -->
+    <EditText
+        android:id="@+id/searchBox"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:hint="Search"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:background="@drawable/rounded_section_background_search"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/rounded_search_24"/>
+
+    <!-- Botones de filtro -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="12dp"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/buttonPlanned"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:background="@drawable/rounded_button"
+            android:text="Planned"/>
+
+        <Button
+            android:id="@+id/buttonWatching"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:background="@drawable/rounded_button"
+            android:text="Watching"/>
+
+        <Button
+            android:id="@+id/buttonWatched"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:background="@drawable/rounded_button"
+            android:text="Watched"/>
+    </LinearLayout>
+
+    <!-- RecyclerView para mostrar la lista de animes -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewLists"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="12dp"/>
+</LinearLayout>

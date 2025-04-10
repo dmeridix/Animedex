@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores de la interfaz -->
+    <color name="colorPrimary">#e0e0fe</color> <!-- Contenedores principales (footer, searchbar) -->
+    <color name="backgroundColor">#ffffff</color> <!-- Fondo de la app -->
+    <color name="textColor">#000000</color> <!-- Color de texto -->
+    <color name="textColorOnButton">#FFFFFF</color>
+    <color name="colorSecondary">#f7f7f7</color> <!-- Contenedores secundarios (ajustes) -->
+
+    <!-- Botones -->
+    <color name="colorButtonPrimary">#2c2c2c</color> <!-- Botones principales -->
+    <color name="colorButtonWarning">#c00f0d</color> <!-- Botones de warning -->
+</resources>

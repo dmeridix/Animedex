@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">M7 Animedex</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_description">home</string>
+    <string name="home_icon">Home</string>
+    <string name="search">Search</string>
+    <string name="home">Home</string>
+    <string name="lists">Lists</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="you_already_have_an_account">You already have an account?</string>
+    <string name="log_in">Log in</string>
+    <string name="or_sign_in_with">Or sign in with:</string>
+
+    <!-- Anime Detail -->
+    <string name="start_date_label">Start Date:</string>
+    <string name="end_date_label">End Date:</string>
+    <string name="mean_label">Mean:</string>
+    <string name="rank_label">Rank:</string>
+    <string name="popularity_label">Popularity:</string>
+    <string name="media_type_label">Media Type:</string>
+    <string name="status_label">Status:</string>
+    <string name="genres_label">Genres:</string>
+    <string name="synopsis_label">Synopsis:</string>
+    <string name="anime_image_description">Main picture of the anime</string>
+    <string name="add_to_favorites">Add to Favorites</string>
+    <string name="episodes_label">Episodes:</string>
+</resources>

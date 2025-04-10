@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Tema principal de la app -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSurface">@color/colorSecondary</item>
+        <item name="colorOnPrimary">@color/textColor</item> <!-- Texto sobre el colorPrimario -->
+        <item name="colorOnSecondary">@color/textColor</item> <!-- Texto sobre el colorSecundario -->
+        <item name="colorOnSurface">@color/textColor</item> <!-- Texto sobre el colorSurface -->
+        <item name="android:background">@color/backgroundColor</item> <!-- Fondo general -->
+        <item name="android:fontFamily">@font/roboto_font_family</item> <!-- Fuente principal -->
+    </style>
+
+    <!-- Estilos adicionales -->
+    <style name="ButtonPrimary" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/colorButtonPrimary</item>
+        <item name="android:textColor">@color/textColorOnButton</item>
+    </style>
+
+    <style name="ButtonWarning" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/colorButtonWarning</item>
+        <item name="android:textColor">@color/textColorOnButton</item>
+    </style>
+
+    <style name="Theme.Splash" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:windowBackground">@drawable/app_icon</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>
