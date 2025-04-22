@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+     context: .
+    container_name: animesapi
+    restart: unless-stopped
+    ports:
+      - "443:443"  # HTTPS
+    environment:
+      - PORT=443
+    networks:
+      - internal
+networks:
+  internal:
+    name: internal
+    external: true
